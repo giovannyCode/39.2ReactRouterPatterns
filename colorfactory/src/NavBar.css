@@ -1,0 +1,33 @@
+/* NavBar Container */
+.NavBar {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  gap: 1rem; /* Spacing between links */
+  background-color: #333;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  max-width: 200px; /* Optional: control the width */
+  margin: 0 auto; /* Center the NavBar */
+}
+
+/* Navigation Links */
+.NavBar a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%; /* Make links take full width */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Effect */
+.NavBar a:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
